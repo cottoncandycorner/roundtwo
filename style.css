@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Economica&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 312px;
+  background: transparent;
+}
+
+body {
+  overflow: hidden;
+}
+
+.round-two,
+.round-two * {
+  box-sizing: border-box;
+}
+
+.round-two {
+  width: 312px;
+  padding: 10px 0;
+  text-align: center;
+  color: #FF9100;
+}
+
+.round-two-heading {
+  margin-bottom: 14px;
+  font-family: 'Corinthia', cursive;
+  font-size: 24px;
+  line-height: 26px;
+  background: linear-gradient(90deg, #FF9100, #E8CC23, #FF9100);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #FF9100;
+  filter: drop-shadow(0 0 2px #FF9100)
+          drop-shadow(0 0 4px #E8CC2366);
+}
+
+.round-two-scene {
+  position: relative;
+  width: 296px;
+  height: 144px;
+  margin: auto;
+}
+
+.round-two-streak {
+  position: absolute;
+  height: 2px;
+  box-shadow: 0 0 5px #FF9100;
+}
+
+.round-two-streak-one {
+  top: 24px;
+  left: 4px;
+  width: 280px;
+  background: linear-gradient(
+    90deg, transparent, #FF9100, #E8CC23, transparent
+  );
+  transform: rotate(-12deg);
+}
+
+.round-two-streak-two {
+  top: 61px;
+  left: 0;
+  width: 296px;
+  background: linear-gradient(
+    90deg, transparent, #E8CC23, #FF9100, transparent
+  );
+  box-shadow: 0 0 5px #E8CC23;
+  transform: rotate(-12deg);
+}
+
+.round-two-streak-three {
+  top: 97px;
+  left: 10px;
+  width: 276px;
+  height: 1px;
+  background: linear-gradient(
+    90deg, transparent, #FF9100, #E8CC23, transparent
+  );
+  box-shadow: none;
+  transform: rotate(-12deg);
+}
+
+.round-two-frame {
+  position: absolute;
+  width: 164px;
+  height: 90px;
+  padding: 2px;
+  border-radius: 14px;
+  z-index: 1;
+  box-shadow: 0 0 8px #FF910066;
+}
+
+.round-two-frame-one {
+  top: 6px;
+  left: 4px;
+  background: linear-gradient(
+    135deg, #FF9100, #E8CC23, #FF9100
+  );
+}
+
+.round-two-frame-two {
+  top: 50px;
+  right: 4px;
+  background: linear-gradient(
+    135deg, #E8CC23, #FF9100, #E8CC23
+  );
+  z-index: 2;
+  box-shadow: 0 0 8px #E8CC2366;
+}
+
+.round-two-inner {
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  border: 1px solid #FFEFD5;
+  border-radius: 12px;
+}
+
+.round-two-inner img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.round-two-star {
+  position: absolute;
+  z-index: 4;
+  color: #E8CC23;
+}
+
+.round-two-star-one {
+  top: 0;
+  left: 157px;
+  font-size: 17px;
+  text-shadow: 0 0 4px #FF9100, 0 0 8px #E8CC23;
+}
+
+.round-two-star-two {
+  top: 90px;
+  left: 0;
+  font-size: 12px;
+  color: #FF9100;
+  text-shadow: 0 0 5px #E8CC23;
+}
+
+.round-two-star-three {
+  top: 125px;
+  right: 0;
+  font-size: 16px;
+  text-shadow: 0 0 6px #FF9100;
+}
+
+.round-two-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  width: 216px;
+  margin: 11px auto 10px;
+}
+
+.round-two-symbol {
+  font-size: 10px;
+  letter-spacing: -1px;
+  color: #FF9100;
+  text-shadow: 0 0 3px #E8CC23;
+}
+
+.round-two-rule {
+  width: 168px;
+  height: 2px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    90deg, transparent, #FF9100, #E8CC23, #FF9100, transparent
+  );
+  box-shadow: 0 0 5px #FF910066;
+}
+
+.round-two-credit {
+  display: inline-block;
+  background: linear-gradient(135deg, #FF9100, #E8CC23);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #E8CC23;
+  text-decoration: none;
+  filter: drop-shadow(0 0 3px #FF9100);
+}
+
+.round-two-quote {
+  font-family: 'Economica', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #FF9100, #E8CC23, #FF9100);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #E8CC23;
+  filter: drop-shadow(0 0 2px #E8CC23)
+          drop-shadow(0 0 4px #FF910066);
+}
+
+.round-two-bottom {
+  width: 140px;
+  height: 1px;
+  margin: 10px auto 0;
+  background: linear-gradient(
+    90deg, transparent, #FF9100, #E8CC23, transparent
+  );
+  box-shadow: 0 0 4px #FF910088;
+}
